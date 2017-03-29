@@ -1,0 +1,51 @@
+.navbar-brand {
+	height: 80px;
+}
+
+#page-title {
+	text-align: center;
+	margin: auto auto auto;
+	padding: 5px auto 5px;
+	align-content: center;
+}
+
+#main-body h2 {
+	padding-bottom: 20px;
+}
+
+#chicken-content {
+	background-color: #add8e6;
+	padding: 20px 15px 20px;
+	height: 1000px;
+}
+
+#section1 {
+	display: block;
+	text-align: center;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#unordered-list span {
+	text-align: center;
+	align-content: center;
+	vertical-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration-color: blue;
+	padding-right: auto;
+	padding-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.container {
+	width: 100%;
+}
+
+.collapsable-nav li {
+	background-color: #e5e5ff;
+}
+
