@@ -35,14 +35,14 @@ WARNING!!! WARNING!!!
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
-var names = ["Jaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 // STEP 10:
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-for (i=0; i<=names.length; i++/* fill in parts of the 'for' loop to loop over names array */) {
+for (var i=0; i<=names.length; i++/* fill in parts of the 'for' loop to loop over names array */) {
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
@@ -52,11 +52,8 @@ for (i=0; i<=names.length; i++/* fill in parts of the 'for' loop to loop over na
   // to lower case character 'j' afterwards.
   // Look up these methods on Mozilla Developer Network web site if needed.
   var firstLetter = names[i].charAt(0);
-
    var str = firstLetter.toLowerCase();
-   console.log(str);
    var word = names[i];
-   console.log(word);
 
   // STEP 12:
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
@@ -64,7 +61,7 @@ for (i=0; i<=names.length; i++/* fill in parts of the 'for' loop to loop over na
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (str == "j") {
-     byeSpeaker.speak;
+     byeSpeaker.speak(word);
   } else {
      helloSpeaker.speak(word);
   }
